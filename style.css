@@ -346,5 +346,34 @@ font-family: Arial, sans-serif;
   height: 150px;
 }
 
+@media (max-width: 768px) {
+
+  .title{
+    font-size: 30px;
+  }
+
+  .contenido_equipos_grupo{
+    width: 95%;
+    height: auto;
+    padding: 15px;
+  }
+
+  .contenido_equipos_grupo_titulo{
+    font-size: 24px;
+  }
+
+  .contenido_equipos_grupo_caja{
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  /* Reducir tamaño general de escudos */
+  img{
+    width: 120px !important;
+    height: auto !important;
+  }
+
+}
+
 /*Partidos*/
 
